@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import {MemoryRouter} from 'react-router'
 import App from './App';
+import 'typeface-roboto';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MemoryRouter>
+      <App />
+    </MemoryRouter>    
   </React.StrictMode>,
   document.getElementById('root')
 );
