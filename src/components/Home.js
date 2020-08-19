@@ -64,4 +64,4 @@ const Home = () => {
     )
 }
 
-export default withWidth()(Home)
+export default Home
