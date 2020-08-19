@@ -4,7 +4,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import Navbar from './Navbar'
 import Skills from './Skills';
 import Typography from '@material-ui/core/Typography';
-import withWidth from '@material-ui/core/withWidth';
 import Education from './Education';
 import Contact from './Contact';
 import About from './About';
