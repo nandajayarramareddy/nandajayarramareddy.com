@@ -25,7 +25,8 @@ import {
   ContactMail,
 } from "@material-ui/icons";
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
+  offset: theme.mixins.toolbar,    
   menuSlider: {
     width: 200,
     height: "100%",
@@ -126,7 +127,7 @@ const Navbar = () => {
   );
   return (
     <>
-      <Hidden xsDown>
+      <Hidden mdDown>
         <MenuSlide open={true} anchor="left" variant="permanent">
           <div className={classes.name}>
             <Typography variant="h5">Nandaja Yarramareddy</Typography>
@@ -138,8 +139,7 @@ const Navbar = () => {
           {sideList()}
         </MenuSlide>
       </Hidden>
-      <Hidden smUp>
-        <Box component="nav">
+      <Hidden lgUp>
           <AppBar position="fixed" className={classes.appBar}>
             <Toolbar>
               <IconButton onClick={toggleMenu("left", true)}>
@@ -157,8 +157,7 @@ const Navbar = () => {
               </MenuSlide>
             </Toolbar>
           </AppBar>
-          <Toolbar/>
-        </Box>
+          <Toolbar className={classes.offset}/>
       </Hidden>
     </>
   );
