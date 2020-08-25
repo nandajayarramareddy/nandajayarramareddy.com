@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box,Hidden} from '@material-ui/core'
+import {Box} from '@material-ui/core'
 import { makeStyles } from "@material-ui/core/styles";
 import Navbar from './Navbar'
 import Skills from './Skills';
@@ -9,7 +9,6 @@ import Contact from './Contact';
 import About from './About';
 import ParticleContainer from './ParticleContainer'
 import Experience from './Experience';
-import { Block } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme)=> ({
     main:{
@@ -20,10 +19,9 @@ const useStyles = makeStyles((theme)=> ({
         [theme.breakpoints.down('md')]: {
             width: '100%',
             marginLeft: 0,
-            //marginBlockStart:'60px'
             },
         height:'100%',
-        position:'absolute',        
+        position:'absolute',    
     },
     heading:{
         backgroundColor:'rgb(225,227,247)',
