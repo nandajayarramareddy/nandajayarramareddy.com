@@ -21,8 +21,8 @@ const useStyles = makeStyles({
     textAlign: "center",
   },
   paper: {
-    marginLeft: "60px",
-    marginRight: "60px",
+    marginLeft: "40px",
+    marginRight: "40px",
     marginTop: "40px",
     marginBottom: "40px",
     padding: "20px",

@@ -13,7 +13,7 @@ const Contact = () => {
             marginBottom="60px"
           >
       <IconButton
-        onClick={() => window.open("https://github.com/ynand", "_blank")}
+        onClick={() => window.open("https://github.com/nandajayarramareddy", "_blank")}
       >
         <GitHub
           style={{

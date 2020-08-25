@@ -8,8 +8,8 @@ import {
 } from "@material-ui/core";
 const useStyles = makeStyles({
   paper: {
-    marginLeft: "60px",
-    marginRight: "60px",
+    marginLeft: "40px",
+    marginRight: "40px",
     marginTop: "40px",
     marginBottom: "40px",
     padding: "20px",
