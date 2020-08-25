@@ -52,19 +52,19 @@ const Experience = () => {
         <p style={{ textIndent: "40px" }}>
           Gas leak Survey System is a web application used by Southern company
           Gas for surveillance and maintenance of Gas delivery systems across
-          several states in USA.
+          several states in the USA.
         </p>
         <p></p>
         <ul>
           <li>
-            Developed responsive UI, implemented packages and stored procedures
+            Developed responsive UI, implemented packages, and stored procedures
             for data retrieval and updation, created Web APIs for business
             logic.
           </li>
           <li>
             Unit tested and delivered product within the specified timelines.
           </li>
-          <li>Automated builds in server using TFS Build.</li>
+          <li>Automated builds in a server using TFS Build.</li>
           <li>
             Deployed in all environments, and provided support during and after
             deployment.
@@ -92,8 +92,8 @@ const Experience = () => {
         </Grid>
         <Divider />
         <p>
-          The purpose of Win2K3 project is to migrate Windows server
-          applications to newer version.
+          The purpose of the Win2K3 project is to migrate Windows server
+          applications to a newer version.
         </p>
         <ul>
           <li>
@@ -127,7 +127,7 @@ const Experience = () => {
         </Grid>
         <Divider />
         <p>
-          The purpose of this automation is to reduce significant time of
+          The purpose of this automation is to reduce a significant time of
           company resources working on Microsoft Excel sheets
         </p>
         <ul>
@@ -137,7 +137,7 @@ const Experience = () => {
           </li>
           <li>
             This application is used to merge and modify Excel workbooks
-            automatically in real time.
+            automatically in real-time.
           </li>
         </ul>
         <p>Technology used: ADO.NET</p>

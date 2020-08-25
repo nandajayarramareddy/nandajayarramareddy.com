@@ -36,14 +36,14 @@ const About = () => {
     <div className={classes.about}>
       <Paper className={classes.paper}>
         <Typography type="h6" className={classes.para}>
-          Hello, thank you for taking time to visit.
+          Hello, thank you for taking the time to visit.
         </Typography>
-        <p>I am web developer based in Hyderabad, India. </p>
+        <p>I am a web developer based in Hyderabad, India. </p>
         <p>
           I had a great opportunity to get trained and work for Infosys Ltd.
         </p>
         <p>
-          I prefer to keep learning, continue challenging myself and do things
+          I prefer to keep learning, continue challenging myself, and do things
           that matter.
         </p>
       </Paper>
