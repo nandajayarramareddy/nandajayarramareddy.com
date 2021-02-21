@@ -113,7 +113,7 @@ const Navbar = () => {
           key={"Resume"}
           component={Link}
           to={
-            "//drive.google.com/file/d/1hF8pVUV28Vx64SwLQEkSV9x2advtSxQc/view?usp=sharing"
+            "//drive.google.com/file/d/1Wr39WqTGNYn5oQ18bhXdy7ijwE2ftZug/view?usp=sharing"
           }
           target="_blank"
         >
